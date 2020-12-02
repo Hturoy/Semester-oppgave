@@ -148,6 +148,10 @@ button {
     margin: auto;
 }
 
+input {
+    border-radius: 8px;
+}
+
 
 
 @media only screen and (min-width: 650px) {
