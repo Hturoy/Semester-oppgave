@@ -1,0 +1,167 @@
+* {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    /* color: white; */
+    color: black;
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(/media/bakgrunn.jpg); */
+    background-color: white;
+    background-size: 100%;
+}
+
+header {
+    /* background-color: #e5ae17b0; */
+    height: 76px;
+    width: auto;
+}
+
+nav {
+    background-color:#3B9C4D;
+    height: 49px;
+    width: auto;
+    display: flex;
+}
+
+main {
+    /* background-color:#3e3e3e5d; */
+    height: auto;
+    width: auto;
+    clear: both;
+}
+
+footer {
+    background-color: #000000a8;
+    height: 170px;
+    width: auto;
+    margin-top: 50px;
+}
+
+nav a {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+main p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.introtext2 {
+    display: none
+}
+
+.indexhead {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.visitinghours {
+    text-align: center;
+}
+
+.vhlist {
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white; 
+}
+
+.address {
+    text-align: center;
+}
+
+footer p {
+    font-size: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.hpphoto {
+    background-color: rgba(0, 128, 128, 0);
+    width: auto;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.hpphoto img {
+    max-height: 200px;
+    border-radius: 8px;
+}
+
+
+
+
+header img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+h2 {
+    margin-top: 8px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: #3B9C4D;
+    border-color: black;
+    border-radius: 8px;
+}
+
+.ticketbutton {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.datepicker {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.rescta {
+    margin-bottom: 20px;
+}
+
+.ticketphoto {
+    width: 200px;
+    margin: auto;
+}
+
+
+
+@media only screen and (min-width: 650px) {
+
+    main p {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .introtext2 {
+        display: block;
+    }
+
+}
+
+
+
