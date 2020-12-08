@@ -183,6 +183,17 @@ textarea {
     margin-right: auto;
 }
 
+.aboutphotos {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -204,6 +215,37 @@ textarea {
         justify-content: center;
     }
 
+    .aboutcontainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .aboutphotos {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1350px) {
+    .aboutphotos {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 30px;
 }
 
 
